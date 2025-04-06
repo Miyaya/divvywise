@@ -1,12 +1,10 @@
 import Carousel from "../components/carousel";
-import Header from "../components/header";
 import Purchase from "../components/purchase";
+import ShapeButton from "../components/ShapeButton";
 
 export default function Dashboard() {
   return (
     <div className="flex flex-col w-screen h-screen overflow-hidden">
-      <Header />
-
       <div className="mx-4 mb-4">
         <Carousel />
       </div>
@@ -15,6 +13,7 @@ export default function Dashboard() {
         <Purchase />
       </div>
 
+      <ShapeButton />
     </div>
   );
 }
